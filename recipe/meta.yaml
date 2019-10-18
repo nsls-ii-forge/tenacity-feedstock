@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -31,10 +32,6 @@ requirements:
 test:
   imports:
     - tenacity
-  requires:
-    - pytest
-  commands:
-    - pytest --pyargs tenacity.tests
 
 about:
   home: http://github.com/jd/tenacity
