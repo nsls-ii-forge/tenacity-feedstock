@@ -5,7 +5,7 @@ Home: http://github.com/jd/tenacity
 
 Package license: Apache 2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/tenacity-feedstock/blob/master/LICENSE.txt)
 
 Summary: Retry a flaky function whenever an exception occurs until it works
 
